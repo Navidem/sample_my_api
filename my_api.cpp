@@ -21,5 +21,5 @@ size_t DoStuff(const std::string &str) {
     Idx++;
   if (str.find("omg") != std::string::npos)
     Idx++;
-  return Vec[Idx];
+  return Vec[Idx+100];
 }
